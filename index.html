@@ -17,11 +17,88 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-
-
 </head>
 
 <body>
+
+    <div class="container">
+
+        <div class="jumbotron" id="header">
+            <h1>Train Scheduler</h1>
+            <p>a schedule for trains</p>
+        </div>
+
+        
+        <div class="panel panel-primary">
+            <!-- Default panel contents -->
+            <div class="panel-heading">
+                <strong>Current Train Schedule</strong>
+            </div>
+
+            <!-- Table -->
+            <table class="table" id="table">
+                <tr id="table-heading">
+                    <th>Train Name</th>
+                    <th>Destination</th>
+                    <th>Frequency (min)</th>
+                    <th>Next Arival</th>
+                    <th>Minutes Away</th>
+
+                </tr>
+
+            </table>
+        </div>
+
+
+        <div class="panel panel-primary">
+            <!-- Default panel contents -->
+            <div class="panel-heading">
+                <strong>Add Train Here</strong>
+            </div>
+
+            <!-- form goes here -->
+            <div class="panel-body">
+
+                <div class="input-group input-group-sm">
+                    <span class="input-group-addon" id="sizing-addon3">Train Name</span>
+                    <input type="text" class="form-control" placeholder="Enter Name Here" aria-describedby="sizing-addon3">
+                </div>
+
+                <div class="input-group input-group-sm">
+                    <span class="input-group-addon" id="sizing-addon3">Destination </span>
+                    <input type="text" class="form-control" placeholder="Enter Destination Here" aria-describedby="sizing-addon3">
+                </div>
+
+                <div class="input-group input-group-sm">
+                    <span class="input-group-addon" id="sizing-addon3">First Train Time (HH:mm)</span>
+                    <input type="text" class="form-control" placeholder="Enter Time Here" aria-describedby="sizing-addon3">
+                </div>
+
+                <div class="input-group input-group-sm">
+                    <span class="input-group-addon" id="sizing-addon3">Frequency (min)</span>
+                    <input type="text" class="form-control" placeholder="Enter Frequency Here" aria-describedby="sizing-addon3">
+                </div>
+
+                <br>
+                <span class="input-group-btn">
+                    <button class="btn btn-default" id="submitbutton" type="button">Submit</button>
+                </span>
+
+
+            </div>
+
+            <!-- panel 2 close -->
+        </div>
+        <!-- close container -->
+    </div>
+
+    </div>
+
+
+
+
+
+    </div>
 
 </body>
 
