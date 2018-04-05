@@ -53,7 +53,7 @@ $(document).ready(function () {
   
       //makes appropriate values appear in proper places in table
       $("#table > tbody").append("<tr><td>"+ childSnapshot.val().trainName + "</td><td>" + childSnapshot.val().destination
-      + "</td><td>"+ childSnapshot.val().nextarrival + "</td><td>"+ childSnapshot.val().Frequency + "</td></tr>");
+      + "</td><td>"+ childSnapshot.val().Frequency + "</td><td>"+ childSnapshot.val().nextarrival + "</td></tr>");
    
 
 });
